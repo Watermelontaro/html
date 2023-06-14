@@ -1,0 +1,21 @@
+{
+    "key1": 1,
+    "key2": "value2",
+    "key3": true,
+    "key4": null,
+    "key5": [
+        1,
+        2,
+        3
+    ],
+    "key6": {
+        "a": [
+            1,
+            2,
+            "a",
+            "小王"
+        ],
+        "hello": "world",
+        "none": 1
+    }
+}

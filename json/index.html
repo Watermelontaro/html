@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //json在js中的使用
+        //javascript对象表示法（JavaScript Object Notation|JSON）是一种轻量级的数据交换格式。
+        //它基于ECMAScript的一个子集。
+        //JSON采用完全独立于语言的文本格式，但是也使用了类似于C语言家族的习惯\
+        //（包括C、C++、C#、Java、JavaScript、Perl、Python等）。
+        //这些特性使JSON成为理想的数据交换语言。
+        //易于人阅读和编写，同时也易于机器解析和生成，并有效地提升网络传输效率。
+        //json的定义
+        //json是一个对象，对象中有多个属性，属性名和属性值之间用"："分隔，多个属性之间用"，"分隔
+        //属性值可以是字符串，数字，布尔值，数组，对象，null，undefined
+        let jsonObj = {
+            "zhu": 123,
+            "si": 'si',
+            "cong": "老王",
+            "key4": true,
+            "key5": null,
+            "key6": undefined,
+            "key7": [1, 2, 3, 4, 5],
+            "key8": {
+                "key9": 123,
+                "key10": "key10"
+            },
+            "key11": [{
+                "key12": 123,
+                "key13": "key13"
+            }, {
+                "key14": 123,
+                "key15": "key15"
+            }]
+        }
+        //json的访问
+        console.log(jsonObj.zhu);
+        console.log(jsonObj.key7[2]);
+        console.log(jsonObj.key8.key9);
+        //json的值是什么类型，就用什么类型的语法访问，如果是数组，就用数组的语法访问
+        //json有两种形式，一种是对象形式，一种是字符串形式。这两种形式可以相互转换
+        //json对象转换成json字符串
+        //let jsonStr = JSON.stringify(jsonObj);
+        //json字符串转换成json对象
+        //let jsonObj2 = JSON.parse(jsonStr);
+        //
+
+
+    </script>
+</body>
+
+</html>
